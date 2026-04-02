@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <!-- Background -->
+  <rect width="640" height="360" fill="#1C1A19"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2725" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="360" fill="url(#grid)"/>
+
+  <!-- Arsenal red accent bar at top -->
+  <rect width="640" height="4" fill="#EF0107"/>
+
+  <!-- Header area -->
+  <rect x="24" y="20" width="592" height="48" rx="8" fill="#252220"/>
+
+  <!-- Logo placeholder circle -->
+  <circle cx="52" cy="44" r="14" fill="#EF0107" opacity="0.9"/>
+  <!-- Simplified cannon shape -->
+  <rect x="44" y="40" width="16" height="3" rx="1" fill="#FFCC00"/>
+  <circle cx="44" cy="41.5" r="3" fill="#FFCC00"/>
+
+  <!-- Title text -->
+  <text x="76" y="42" font-family="sans-serif" font-weight="700" font-size="14" fill="#F0EDE8">club1886</text>
+  <text x="76" y="54" font-family="sans-serif" font-size="9" fill="#8a8580">The Arsenal Archive</text>
+
+  <!-- Nav dots -->
+  <circle cx="556" cy="44" r="3" fill="#EF0107"/>
+  <circle cx="572" cy="44" r="3" fill="#3a3735"/>
+  <circle cx="588" cy="44" r="3" fill="#3a3735"/>
+  <circle cx="604" cy="44" r="3" fill="#3a3735"/>
+
+  <!-- Main content area - Match card -->
+  <rect x="24" y="80" width="288" height="160" rx="10" fill="#252220"/>
+  <rect x="24" y="80" width="288" height="36" rx="10" fill="#2d2a28"/>
+  <rect x="24" y="106" width="288" height="1" fill="#2d2a28"/>
+
+  <!-- Match card header -->
+  <text x="40" y="103" font-family="sans-serif" font-weight="600" font-size="10" fill="#F0EDE8">Latest Result</text>
+  <rect x="260" y="90" width="40" height="16" rx="4" fill="#EF0107" opacity="0.2"/>
+  <text x="268" y="101" font-family="sans-serif" font-size="8" fill="#EF0107">LIVE</text>
+
+  <!-- Team 1 -->
+  <circle cx="80" cy="160" r="20" fill="#EF0107" opacity="0.15"/>
+  <text x="80" y="164" font-family="sans-serif" font-weight="700" font-size="12" fill="#EF0107" text-anchor="middle">ARS</text>
+
+  <!-- Score -->
+  <text x="168" y="168" font-family="sans-serif" font-weight="700" font-size="28" fill="#F0EDE8" text-anchor="middle">3 - 1</text>
+  <text x="168" y="182" font-family="sans-serif" font-size="8" fill="#8a8580" text-anchor="middle">Full Time</text>
+
+  <!-- Team 2 -->
+  <circle cx="256" cy="160" r="20" fill="#3a3735"/>
+  <text x="256" y="164" font-family="sans-serif" font-weight="700" font-size="12" fill="#8a8580" text-anchor="middle">TOT</text>
+
+  <!-- Goal scorers -->
+  <text x="40" y="222" font-family="sans-serif" font-size="8" fill="#8a8580">Saka 23' | Havertz 45' | Rice 67'</text>
+
+  <!-- Standings card -->
+  <rect x="328" y="80" width="288" height="160" rx="10" fill="#252220"/>
+  <rect x="328" y="80" width="288" height="36" rx="10" fill="#2d2a28"/>
+  <rect x="328" y="106" width="288" height="1" fill="#2d2a28"/>
+
+  <text x="344" y="103" font-family="sans-serif" font-weight="600" font-size="10" fill="#F0EDE8">Standings</text>
+
+  <!-- Table header -->
+  <text x="344" y="128" font-family="sans-serif" font-size="8" fill="#8a8580">Pos</text>
+  <text x="370" y="128" font-family="sans-serif" font-size="8" fill="#8a8580">Team</text>
+  <text x="540" y="128" font-family="sans-serif" font-size="8" fill="#8a8580">Pts</text>
+
+  <!-- Table rows -->
+  <rect x="336" y="133" width="272" height="22" rx="4" fill="#EF0107" opacity="0.08"/>
+  <text x="348" y="148" font-family="sans-serif" font-weight="600" font-size="9" fill="#FFCC00">1</text>
+  <circle cx="375" cy="144" r="6" fill="#EF0107" opacity="0.3"/>
+  <text x="388" y="148" font-family="sans-serif" font-weight="600" font-size="9" fill="#F0EDE8">Arsenal</text>
+  <text x="544" y="148" font-family="sans-serif" font-weight="700" font-size="9" fill="#FFCC00">78</text>
+
+  <text x="348" y="168" font-family="sans-serif" font-size="9" fill="#8a8580">2</text>
+  <circle cx="375" cy="164" r="6" fill="#3a3735"/>
+  <text x="388" y="168" font-family="sans-serif" font-size="9" fill="#8a8580">Liverpool</text>
+  <text x="544" y="168" font-family="sans-serif" font-size="9" fill="#8a8580">75</text>
+
+  <text x="348" y="188" font-family="sans-serif" font-size="9" fill="#8a8580">3</text>
+  <circle cx="375" cy="184" r="6" fill="#3a3735"/>
+  <text x="388" y="188" font-family="sans-serif" font-size="9" fill="#8a8580">Man City</text>
+  <text x="544" y="188" font-family="sans-serif" font-size="9" fill="#8a8580">71</text>
+
+  <text x="348" y="208" font-family="sans-serif" font-size="9" fill="#8a8580">4</text>
+  <circle cx="375" cy="204" r="6" fill="#3a3735"/>
+  <text x="388" y="208" font-family="sans-serif" font-size="9" fill="#8a8580">Chelsea</text>
+  <text x="544" y="208" font-family="sans-serif" font-size="9" fill="#8a8580">64</text>
+
+  <!-- Bottom stats row -->
+  <rect x="24" y="256" width="186" height="84" rx="10" fill="#252220"/>
+  <text x="40" y="280" font-family="sans-serif" font-weight="600" font-size="10" fill="#F0EDE8">Data Points</text>
+  <text x="40" y="318" font-family="sans-serif" font-weight="700" font-size="28" fill="#EF0107">100k+</text>
+
+  <rect x="226" y="256" width="186" height="84" rx="10" fill="#252220"/>
+  <text x="242" y="280" font-family="sans-serif" font-weight="600" font-size="10" fill="#F0EDE8">Seasons</text>
+  <text x="242" y="318" font-family="sans-serif" font-weight="700" font-size="28" fill="#FFCC00">30+</text>
+
+  <rect x="428" y="256" width="188" height="84" rx="10" fill="#252220"/>
+  <text x="444" y="280" font-family="sans-serif" font-weight="600" font-size="10" fill="#F0EDE8">AI Chat</text>
+  <text x="444" y="304" font-family="sans-serif" font-size="9" fill="#8a8580">Gemini-powered</text>
+  <text x="444" y="318" font-family="sans-serif" font-size="9" fill="#8a8580">arsenal knowledge</text>
+</svg>

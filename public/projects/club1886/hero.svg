@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#1C1A19"/>
+
+  <!-- Grid -->
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#2a2725" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="redGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EF0107" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#EF0107" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#grid)"/>
+
+  <!-- Red accent glow -->
+  <circle cx="600" cy="200" r="400" fill="url(#redGlow)"/>
+
+  <!-- Top red bar -->
+  <rect width="1200" height="4" fill="#EF0107"/>
+
+  <!-- Center content -->
+  <!-- Logo circle -->
+  <circle cx="600" cy="180" r="60" fill="#EF0107" opacity="0.12"/>
+  <circle cx="600" cy="180" r="45" fill="#EF0107" opacity="0.08"/>
+  <!-- Simplified cannon -->
+  <rect x="572" y="175" width="56" height="8" rx="4" fill="#EF0107" opacity="0.8"/>
+  <circle cx="572" cy="179" r="10" fill="#EF0107" opacity="0.8"/>
+
+  <!-- Title -->
+  <text x="600" y="280" font-family="sans-serif" font-weight="800" font-size="48" fill="#F0EDE8" text-anchor="middle">club1886</text>
+  <text x="600" y="310" font-family="sans-serif" font-weight="400" font-size="18" fill="#8a8580" text-anchor="middle">The Arsenal Archive — 30+ years of history, 100k+ data points</text>
+
+  <!-- Tech stack pills -->
+  <rect x="310" y="340" width="70" height="28" rx="14" fill="#252220" stroke="#EF0107" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="345" y="358" font-family="sans-serif" font-size="10" fill="#EF0107" text-anchor="middle">React</text>
+
+  <rect x="392" y="340" width="90" height="28" rx="14" fill="#252220" stroke="#EF0107" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="437" y="358" font-family="sans-serif" font-size="10" fill="#EF0107" text-anchor="middle">TypeScript</text>
+
+  <rect x="494" y="340" width="70" height="28" rx="14" fill="#252220" stroke="#EF0107" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="529" y="358" font-family="sans-serif" font-size="10" fill="#EF0107" text-anchor="middle">Convex</text>
+
+  <rect x="576" y="340" width="70" height="28" rx="14" fill="#252220" stroke="#FFCC00" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="611" y="358" font-family="sans-serif" font-size="10" fill="#FFCC00" text-anchor="middle">Gemini</text>
+
+  <rect x="658" y="340" width="60" height="28" rx="14" fill="#252220" stroke="#EF0107" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="688" y="358" font-family="sans-serif" font-size="10" fill="#EF0107" text-anchor="middle">Clerk</text>
+
+  <rect x="730" y="340" width="100" height="28" rx="14" fill="#252220" stroke="#EF0107" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="780" y="358" font-family="sans-serif" font-size="10" fill="#EF0107" text-anchor="middle">GH Actions</text>
+
+  <!-- Bottom stat cards -->
+  <rect x="200" y="420" width="200" height="100" rx="12" fill="#252220"/>
+  <text x="220" y="452" font-family="sans-serif" font-size="12" fill="#8a8580">Fixtures &amp; Results</text>
+  <text x="220" y="496" font-family="sans-serif" font-weight="700" font-size="36" fill="#F0EDE8">30+</text>
+  <text x="295" y="496" font-family="sans-serif" font-size="14" fill="#8a8580">seasons</text>
+
+  <rect x="430" y="420" width="200" height="100" rx="12" fill="#252220"/>
+  <text x="450" y="452" font-family="sans-serif" font-size="12" fill="#8a8580">Data Points</text>
+  <text x="450" y="496" font-family="sans-serif" font-weight="700" font-size="36" fill="#EF0107">100k+</text>
+  <text x="545" y="496" font-family="sans-serif" font-size="14" fill="#8a8580">records</text>
+
+  <rect x="660" y="420" width="200" height="100" rx="12" fill="#252220"/>
+  <text x="680" y="452" font-family="sans-serif" font-size="12" fill="#8a8580">AI Assistant</text>
+  <text x="680" y="490" font-family="sans-serif" font-weight="600" font-size="16" fill="#FFCC00">Gemini</text>
+  <text x="680" y="508" font-family="sans-serif" font-size="11" fill="#8a8580">Arsenal knowledge</text>
+</svg>
