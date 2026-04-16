@@ -9,7 +9,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: "GitHub",
-    url: "https://github.com/kamali",
+    url: "https://github.com/KamaliS6",
     icon: "github",
     primary: false,
   },

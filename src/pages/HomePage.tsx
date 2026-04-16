@@ -12,7 +12,7 @@ export function HomePage() {
     <>
       <SEOHead />
       <TerminalWindow
-        title={`${siteConfig.name.toLowerCase()} — portfolio`}
+        title="Kamali's Portfolio"
         navbar={<TerminalNav />}
       >
         <HeroSection />
