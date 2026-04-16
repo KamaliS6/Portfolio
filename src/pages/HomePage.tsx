@@ -5,7 +5,6 @@ import { SkillsGrid } from "../components/about/SkillsGrid";
 import { CVSection } from "../components/about/CVSection";
 import { TerminalWindow } from "../components/terminal/TerminalWindow";
 import { TerminalNav } from "../components/layout/TerminalNav";
-import { siteConfig } from "../data/site-config";
 
 export function HomePage() {
   return (
