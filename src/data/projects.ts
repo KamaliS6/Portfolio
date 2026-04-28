@@ -48,13 +48,13 @@ export const projects: Project[] = [
         ],
       },
       {
-        title: "30 Years at a Glance",
+        title: "Season by Season Archive",
         description:
-          "Standings, fixtures, recent form, live match data, and news — all on a single dashboard. Designed around Arsenal's red and gold palette with dark/light mode. Every widget is live-updating and built to surface the data that matters at a glance.",
+          "Every Arsenal season since 1992 in one place. Drill into any year for the full record — wins, draws, losses, goals scored and conceded, home and away splits — alongside top scorer, top assists, and most appearances. Competition breakdown surfaces league finish, cup runs, and Europe at a glance, so 30+ years of history are one click apart.",
         images: [
           {
-            src: "/projects/club1886/process/frontend.jpg",
-            alt: "Dashboard showing standings, fixtures, and recent results",
+            src: "/projects/club1886/process/season-archive.png",
+            alt: "Season archive page showing 2025-2026 record, top performers, and competition breakdown",
           },
         ],
       },
