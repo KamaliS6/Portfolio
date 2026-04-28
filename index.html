@@ -6,6 +6,15 @@
     <meta name="theme-color" content="#0a0a0a" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Kamali — Software Developer</title>
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem("theme") === "light") {
+            document.documentElement.dataset.theme = "light";
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { ThemeToggle } from "../ui/ThemeToggle";
 
 interface TerminalWindowProps {
   title?: string;
@@ -26,6 +27,8 @@ export function TerminalWindow({ title = "terminal", navbar, children }: Termina
             {title}
           </span>
         </div>
+        {/* Theme toggle */}
+        <ThemeToggle />
       </div>
       {/* Navbar */}
       {navbar && (

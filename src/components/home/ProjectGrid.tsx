@@ -26,7 +26,7 @@ export function ProjectGrid() {
         <span className="border-y-[14px] border-l-[10px] border-y-[#3b4261] border-l-blue-500" />
         <span className="bg-[#3b4261] py-1 pl-1 pr-2 text-blue-300">~/portfolio</span>
         <span className="border-y-[14px] border-l-[10px] border-y-transparent border-l-[#3b4261]" />
-        <span className="pl-2 py-1 text-terminal-text">ls <span className="text-cyan-300">projects</span></span>
+        <span className="pl-2 py-1 text-terminal-text">ls <span className="text-terminal-accent">projects</span></span>
         <span className="inline-block w-[0.55em] h-[1.1em] bg-terminal-green ml-1" />
       </div>
 

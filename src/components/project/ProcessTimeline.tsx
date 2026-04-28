@@ -8,7 +8,7 @@ export function ProcessTimeline({ steps }: { steps: ProcessStep[] }) {
   return (
     <section className="mt-12">
       <h2 className="mb-6 text-sm text-terminal-muted">
-        <span className="text-terminal-green">$</span> cat process.log
+        <span className="text-terminal-green">$</span> ls pictures
       </h2>
 
       <div className="space-y-1">

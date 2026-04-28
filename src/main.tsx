@@ -3,9 +3,9 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router";
 import { HelmetProvider } from "react-helmet-async";
 import { App } from "./App";
-import "@fontsource/jetbrains-mono/400.css";
-import "@fontsource/jetbrains-mono/500.css";
-import "@fontsource/jetbrains-mono/700.css";
+import "@fontsource/iosevka/400.css";
+import "@fontsource/iosevka/500.css";
+import "@fontsource/iosevka/700.css";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
